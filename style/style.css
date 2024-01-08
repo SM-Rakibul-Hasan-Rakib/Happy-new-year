@@ -86,15 +86,60 @@ position: absolute;
   
 }
 .box-img{
+  margin-top: 100px;
   max-width: 100%;
   height: auto;
   display: inline-block;
   margin: 10px;
   padding-top: 15px;
-  margin-left:  200px;
+  margin-left:  260px;
 }
 .box-2024{
   position: absolute;
   left: 60%;
-  bottom:  -120%;
+  bottom:  -118%;
+}
+
+.about-info{
+  background-color: ;
+  width: 1320px;
+  height: 482px;
+  margin: 0 auto;
+  margin: 100px 358px 385px 214px;
+}
+.holder-1{
+  margin-top: 100px;
+ text-align: center;
+}
+.holder-2{
+  margin-top: 10px;
+  text-align: center;
+}
+.holder-3{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.text-primary{
+  color: #F00;
+  
+  
+}
+.btn-primary{
+  position: relative;
+  left: 47%;
+  right: 50%;
+  background-color: #F00;
+  color: #fff;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 16px 32px;
+  font-weight: 500;
+  margin:  48px auto;
+}
+.btn-primary:hover{
+  transform: translate(1sc);
+   background-color: rgb(42, 165, 52);
+
 }
