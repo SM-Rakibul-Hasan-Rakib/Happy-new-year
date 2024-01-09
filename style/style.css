@@ -240,11 +240,13 @@
 }
 .gift-img div{
   overflow: hidden;
+  border-radius: 20px;
   width: 424px;
 }
 .gift-img img:hover {
   scale: 1.5;
-  transition: all 500ms;
+  transition: all 500ms ease-in-out;
+  
 }
 
 /* e@mail */
@@ -302,7 +304,7 @@ button:hover {
 /* footer */
 footer {
   margin-top: 150px;
-  height: 600px;
+
   background-color: black;
 }
 .footer-container {
