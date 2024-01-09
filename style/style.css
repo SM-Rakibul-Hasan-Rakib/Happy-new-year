@@ -2,14 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
- .banner-container {
+.banner-container {
   position: relative;
   color: rgb(255, 255, 255);
   text-align: center;
-
 }
 .banner-text {
   position: absolute;
@@ -65,7 +63,7 @@
 .box-ma {
   position: relative;
 }
-.btn-5{
+.btn-5 {
   background-color: black;
   color: #fff;
 }
@@ -94,7 +92,11 @@
 }
 
 .about-info {
-  background :  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
   width: 1320px;
   height: 482px;
   margin: 70px auto;
@@ -139,7 +141,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin:  0 15%;
+  margin: 0 15%;
 }
 .offer-text {
   bottom: 10px;
@@ -185,7 +187,7 @@
   display: flex;
 
   justify-content: space-between;
-  width: 90%; 
+  width: 90%;
   align-self: center;
   margin: 0 auto;
 }
@@ -193,11 +195,9 @@
   position: relative;
 }
 .sale-img-2 .img-50 {
-
   position: absolute;
   left: -35%;
   top: 10%;
-
 }
 .sale-box-1 .bottom-img {
   display: flex;
@@ -209,83 +209,64 @@
 }
 .sale-box-1 .bottom-img img {
   width: 90%;
-
 }
-.gift-text{
+.gift-text {
   margin: 70px;
   padding: 70px;
   margin-left: 240px;
 }
 .gift-text h3 {
   font-size: 24px;
-  
 }
-.gift-text h1{
- font-size: 49px;
- margin-top: 22px;
+.gift-text h1 {
+  font-size: 49px;
+  margin-top: 22px;
 }
-.gift-text p{
+.gift-text p {
   font-size: 20px;
   margin-top: 22px;
-  
 }
-.gift-img-00{
+.gift-img {
   justify-content: center;
   display: flex;
-}
-
-.gift-img-00 .gift-img-1{
-  justify-content: space-between;
-  margin-right: 15px;
-}
-.gift-img-00 .gift-img-2{
-  justify-content: space-between;
-  margin-right: 15px;
-}
-
-
-.gift-img-01{
-  justify-content: center;
-  display: flex;
-  margin-top: 15px;
+  margin: 0 10%;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-self: center;
   
 }
-.gift-img-01 .gift-img-4{
-  margin-right: 15px;
+.gift-img div{
+  overflow: hidden;
+  width: 424px;
 }
-.gift-img-01 .gift-img-5{
-  margin-right: 15px;
-}
-.gift-img-01 .images-6{
- margin-right: 15px;
+.gift-img img:hover {
+  scale: 1.5;
+  transition: all 500ms;
 }
 
 /* e@mail */
 
-.email-img{
+.email-img {
   margin-top: 200px;
   margin-left: 50%;
   margin-right: 50%;
 }
-.email-text{
+.email-text {
   text-align: center;
   margin-left: 5%;
   margin-top: 50px;
-
-  
 }
-.email-text h1{
+.email-text h1 {
   font-size: 48px;
 }
-.email-text p{
+.email-text p {
   font-size: 20px;
   margin-top: 22px;
 }
 
-
 /* email */
 
-.input-item{
+.input-item {
   width: 640px;
   height: 72px;
   background: #fff;
@@ -295,12 +276,12 @@
   margin: auto;
   margin-top: 30px;
 }
-.input-item input{
+.input-item input {
   padding: 28px 150px;
   border-radius: 60px 0px 0px 60px;
 }
 
-.input-item button{
+.input-item button {
   border-radius: 0px 60px 60px 0px;
   background: #f00;
   padding: 28px 60px;
@@ -310,71 +291,66 @@
   height: 75px;
   border: none;
 }
-button:hover{
+button:hover {
   transform: translate(1sc);
   background-color: black;
- 
 }
 
 /* footer */
-footer{
+footer {
   margin-top: 150px;
   height: 600px;
   background-color: black;
 }
-.footer-container{
+.footer-container {
   padding: 100px;
 }
-.footer-info{
+.footer-info {
   color: #fff;
   margin-left: 40px;
   padding-top: 40px;
   padding-left: 40px;
-  
 }
-.contact-icon{
+.contact-icon {
   color: #fff;
   display: flex;
   text-align: right;
   margin-left: 90%;
-  
-  
 }
-.img-icon-2{
+.img-icon-2 {
   display: flex;
   color: #fff;
   margin-left: 90%;
   margin-right: 10%;
   margin-bottom: 90px;
 }
-.footer-icon{
+.footer-icon {
   align-items: center;
   display: flex;
   justify-content: center;
   padding: 40px 0;
- 
 }
 
-.footer-icon .footer-icon-1{
+.footer-icon .footer-icon-1 {
   margin-right: 10px;
 }
-.footer-icon .footer-icon-2{
+.footer-icon .footer-icon-2 {
   margin-right: 10px;
 }
-.footer-icon .footer-icon-3{
+.footer-icon .footer-icon-3 {
   margin-right: 10px;
 }
 
-.footer-container .footer-text{
+.footer-container .footer-text {
   justify-content: space-between;
 }
 
-.footer-container .footer-text p{
+.footer-container .footer-text p {
   color: #fff;
   margin-top: -5px;
   margin-left: 80px;
 }
-.footer-container .footer-text h3{
+.footer-container .footer-text h3 {
   color: #fff;
   text-align: right;
   padding-right: 50px;
